@@ -10,7 +10,7 @@ def alerta():
 
 	server = smtplib.SMTP("smtp.gmail.com", 587)
 	server.starttls()
-	server.login("lfvallejo61922@umanizales.edu.co", "supervideos1")
+	server.login("lfvallejo61922@umanizales.edu.co", "supervideos1"
 
 
 	server.sendmail("lfvallejo61922@umanizales.edu.co", "lkrios62840@umanizales.edu.co", mensajeAlerta)
